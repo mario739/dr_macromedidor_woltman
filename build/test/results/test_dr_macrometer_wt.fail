@@ -1,0 +1,22 @@
+---
+:source:
+  :path: test
+  :file: test_dr_macrometer_wt.c
+:successes:
+- :test: test_macrometer_wt_get_caudal
+  :line: 25
+  :message: ''
+  :unity_test_time: 0
+:failures:
+- :test: test_init_driver
+  :line: 22
+  :message: Expected 100 Was 232
+  :unity_test_time: 0
+:ignores: []
+:counts:
+  :total: 2
+  :passed: 1
+  :failed: 1
+  :ignored: 0
+:stdout: []
+:time: 0.002297364000696689
